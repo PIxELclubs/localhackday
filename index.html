@@ -69,7 +69,7 @@
   </div>
 </nav>
 
-<ul id="nav-mobile" class="side-nav">
+<ul id="nav-mobile" class="side-nav" style="left: 0px">
   <li><a href="#about">About<span><img src="img/about_icon.png"></span></a></li>
   <li><a href="#map">Map<span><i class="fa fa-map-marker"></i></span></a></li>
   <li><a href="#testimonials">Testimonials</a></li>
@@ -302,7 +302,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 <script>
-$.fn.smoothScrollable = function() {
+  $.fn.smoothScrollable = function() {
     $(this).click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
@@ -331,26 +331,26 @@ $.fn.smoothScrollable = function() {
         $('.origi-nav').fadeIn();
       }
     }); // end $(window).scroll
-    }); // end $(document).ready
-  </script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }); // end $(document).ready
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-88073269-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <!-- Twitter universal website tag code -->
-  <script>
-  !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-  },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-  a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-  // Insert Twitter Pixel ID and Standard Event data below
-  twq('init','nvx2t');
-  twq('track','PageView');
-  </script>
-  <!-- End Twitter universal website tag code -->
+  ga('create', 'UA-88073269-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- Twitter universal website tag code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','nvx2t');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
 </body>
 </html>
