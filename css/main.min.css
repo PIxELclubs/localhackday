@@ -10087,10 +10087,8 @@ body a {
 
 .intro h3 {
     color: #2c2d2d;
-    font-size: 48px;
+    font-size: 30pt;
     font-weight: 300;
-    letter-spacing: 2px;
-    padding-bottom: 31px
 }
 
 .intro h4 {
@@ -10403,15 +10401,14 @@ footer.page-footer .footer-copyright {
 }
 
 .about-body {
-    padding: 80px 0
+
 }
 
 .about-details p {
     color: #4a4d4d;
-    font-size: 23px;
-    line-height: 2em;
+    font-size: 20px;
+    line-height: 1.5em;
     font-weight: 300;
-    padding-bottom: 50px
 }
 
 @media (max-width: 600px) {
